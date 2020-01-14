@@ -19,7 +19,7 @@ document.addEventListener('click', function (event) {
 
     var toolTip = image.parentNode.childNodes[2];
 
-    var copiedSuccess = `<span class="tooltiptext tooltip-success">Succesfully coppied <b>${image.alt}</b></span>`;
+    var copiedSuccess = `<span class="tooltiptext tooltip-success">Succesfully copied <b>${image.alt}</b></span>`;
 
     toolTip.outerHTML = copiedSuccess;
 }, false);
